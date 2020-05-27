@@ -1,16 +1,16 @@
 # Australian-Post-Pandemic-Labour-Market-Analysis-
 
-##1. Background
+## 1. Background
 
 Despite the unprecedent steps to contain the spread of the virus and government support packages to mitigate its impact on individuals, households, and businesses, we began to see huge impacts in the economy worldwide and unprecedent change in the labour market. As highlighted in the Australian Bureau of Statistics ’s figures, between March and April, the number of unemployed people increased by around 100, 000 and unemployment rate increased by 1.0 percent to 6.2 percent. This figure can only partially indicate the impact on labour market. More importantly there are many people who had their working hours reduced or were stood down. The unemployment rate only captures the population who were not employed and had been actively looking for work during the survey weeks. There are also many people who lost the job during March-April period who were either not looking for work or not available for work. These people were counted as not in the labour force, instead of being unemployed. Hence, this notebook will not only analyse the change in unemployment situation, it will also capture the change in participation rate, monthly hours worked and underemployment.
 
-##2. Datasets
+## 2. Datasets
 
 The datasets used for analysis in this notebook were obtained from Australian Bureau of Statistics website. The datasets are updated monthly by the ABS. The datasets used in this notebook were released on the 14th May 2020. They contain Labour Force data from Jan 1978 to April 2020. The data is normally collected through face-to-face, telephone and online interviews by the ABS with rotating groups. To mitigate the potential risks from COVID-19, the data collection for March and April were mainly carried out through telephone and online.  This resulted in a fall in the response rate for this rotation group. Consequently, the ABS decided to reduce the influence of that group. To avoid the seasonal impact in the employment, the datasets selected in this notebook are seasonally adjusted. 
 
-##3. Data Analysis
+## 3. Data Analysis
 
-###3.1 Data Selection
+### 3.1 Data Selection
 
 Based on the focus of the analysis, the following four datasets were selected:
 
@@ -23,7 +23,7 @@ Based on the focus of the analysis, the following four datasets were selected:
 4)	Monthly hours worked in all jobs by employment type by Sex and Territory: This dataset contains the monthly hours worked data in Northern Territory and Australian Capital Territory, which complement with the last dataset
 
 
-###3.2 Data Preparation
+### 3.2 Data Preparation
 
 The four datasets selected have slightly different timeframes. Datasets were cleaned separately instead of being concatenated altogether. This approach is used to avoid data loss that is not covered by all the dataset’s timeframes. The data cleaning steps are as followings: 
 
@@ -43,7 +43,7 @@ The four datasets selected have slightly different timeframes. Datasets were cle
 
 8)	The cleaned data was saved in csv format ready for analysis. 
 
-###3.3 Data Analysis
+### 3.3 Data Analysis
 
 Data was analysed based on timeframe—Overall Change from 1978 to 2020, Change over last 5 years and Current situation based on data from April 2020. 
 
@@ -53,6 +53,6 @@ Data was analysed based on timeframe—Overall Change from 1978 to 2020, Change 
 
 3)	Current Employment Situation – the last analysis section emphasises the change in the labour market during April 2020. The pie charts visualise the components of employment and labour force participation. The three horizontal bar charts showcase that in April 2020 working hours per thousand people in each state worked, how the underemployment impacted different age groups and the reasons which made people underemployed. 
 
-##4. Conclusion
+## 4. Conclusion
 
 The data analysis has found the current COVID-19 pandemic had a huge impact on the Australian Labour Market. Not only has the unemployment rate increased exponentially, the other employment indicators: participation rate, employment to population ratio and monthly hours worked all see a sharp drop during the April 2020 period. Due to the restriction to slow the virus spread and businesses shutting down, the Australian Labour Market saw a large amount of people either unemployed or not counted in the labour force. Even for people who still have full-time or part-time employment, the data analysis indicates that their monthly hours worked dropped tremendously, with many of them suffering from underemployment. 
